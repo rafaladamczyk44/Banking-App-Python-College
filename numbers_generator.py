@@ -11,9 +11,6 @@ def create_card_number():
     while True:
         card_number = generate_random()
         if luhn_check(card_number):
-            # num_string = str(card_number)
-            # len_of_str = len(num_string)
-            # account_number = int(num_string[len_of_str - 9: len_of_str])
             return card_number
 
 
